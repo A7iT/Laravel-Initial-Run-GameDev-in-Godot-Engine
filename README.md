@@ -1,8 +1,8 @@
-# Laravel Initial Run – Blade Template Mastering
+# Laravel Initial Run – GameDev in Godot Engine
 
-A single-page Laravel application demonstrating **Blade template mastering** with a clean, fluid, and responsive UI design.
+A single-page Laravel application demonstrating **Blade template mastering** with a clean, fluid, and responsive UI design themed around **game development with Godot**.
 
-This project is themed around **game development with Godot** and focuses on frontend structure and best practices inside a Laravel environment, without relying on external CSS or JavaScript frameworks.
+This project focuses on frontend structure and best practices inside a Laravel environment, without relying on external CSS or JavaScript frameworks.
 
 ---
 
@@ -10,11 +10,12 @@ This project is themed around **game development with Godot** and focuses on fro
 
 - Blade layout inheritance using a master layout  
 - Reusable partials (header and footer)  
-- Single-page structure  
+- Single-page structure with interactive sections
 - Clean, modern, and responsive CSS design  
-- Client-side JavaScript for basic reactivity  
+- Client-side JavaScript for basic reactivity and interactivity
 - Proper Laravel asset management (CSS & JS from `public/`)  
 - Simple and maintainable folder structure  
+- Interactive learning roadmap with completion tracking
 
 ---
 
@@ -56,6 +57,7 @@ This project was created to demonstrate:
 - Clean separation of layout and content
 - Reusable UI components
 - Frontend design and responsiveness within Laravel
+- Interactive single-page application structure
 
 It is suitable for academic submission, learning reference, or as a starter template for simple Laravel-based frontend projects.
 
@@ -65,8 +67,8 @@ It is suitable for academic submission, learning reference, or as a starter temp
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/laravel-blade-mastering.git
-cd laravel-blade-mastering
+git clone https://github.com/yourusername/Laravel-Initial-Run-GameDev-in-Godot-Engine.git
+cd Laravel-Initial-Run-GameDev-in-Godot-Engine
 ```
 
 ### 2. Install dependencies
@@ -92,11 +94,28 @@ http://127.0.0.1:8000
 
 ---
 
+## Application Features
+
+### Navigation
+- **Home**: Main landing page with interactive buttons
+- **About**: Information about the project
+
+### Interactive Sections
+- **Explore Engine**: Learn about Godot Engine features
+- **Dev Tools**: Discover development tools for game creation
+- **Learning Roadmap**: Track your progress through game development concepts
+  - Learn GDScript
+  - Master Nodes & Scenes
+  - Build First Game
+
+---
+
 ## Notes
 
 - All CSS and JavaScript assets are loaded from the `public/` directory using Laravel's `asset()` helper.
 - The application is intentionally kept framework-free on the frontend to clearly demonstrate core concepts.
 - The single-page layout highlights Blade's layout inheritance and partial reuse.
+- Interactive elements use vanilla JavaScript for enhanced user experience.
 
 ---
 
